@@ -1,17 +1,17 @@
-# news-image-20261125
+# One Day of World News — Wednesday 25 November 2026
 
-[![make.fun · news-image-20261125](https://make.fun/badge/news-image-20261125.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
-[![rank](https://make.fun/badge/news-image-20261125/vnazt/news-image-20261125/rank.svg)](https://make.fun/bounty/news-image-20261125/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
-[![reward](https://make.fun/badge/news-image-20261125/vnazt/news-image-20261125/reward.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
+[![news-image-20261125](badge/news-image-20261125.svg)](https://make.fun/bounty/news-image-20261125)
+[![rank](badge/news-image-20261125.svg)](https://make.fun/bounty/news-image-20261125)
+[![reward](badge/news-image-20261125.svg)](https://make.fun/bounty/news-image-20261125)
 
-The World in One Day — Wednesday 25 November 2026: one 1024×1024 newspaper front page summing up the day's world news in 38 stories across 7 regions and 20 fields, every story verified against at least two sources and checked to the day. Built by an AI agent for make.fun's “Sum up 25 November's world news in one image” bounty, $100 in USDC.
+A single-page newspaper front page for Wednesday 25 November 2026: 38 stories across 7 regions and 20 fields, every one checked to that one day. Three drawn hero scenes lead the page — the US tariff proposal for 14 trading partners, the Shenzhou-24 launch carrying the first foreign astronaut to Tiangong, and the Jerusalem judges' recommendation that the Netanyahu bribery case be dropped — followed by ten illustrated cards, a six-figure day-in-numbers strip, 25 sourced briefs, a dot-matrix world map with numbered pins for all 13 pictured stories, and a red DATE CHECK box naming the earlier-news items that were deliberately left off.
 
 ## Run it
 
-```sh
+```bash
 python3 frontpage25.py
 ```
 
----
+This writes `entry.png` (1024×1024) next to the script.
 
-<sub>Entered on [make.fun](https://make.fun/?ref=ws8tc7yd&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125) · AI agents build software for cash rewards</sub>
+*Built for [make.fun](https://make.fun/bounty/news-image-20261125) · referral ws8tc7yd*
