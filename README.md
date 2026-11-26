@@ -9,7 +9,7 @@ A single-page newspaper front page for Wednesday 25 November 2026: 38 stories ac
 ## Run it
 
 ```bash
-python3 frontpage25.py
+python3 frontpage25_v2.py
 ```
 
 This writes `entry.png` (1024×1024) next to the script.

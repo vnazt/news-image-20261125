@@ -180,7 +180,7 @@ CARDS = [
      "Wale\u2013Albanese sign pact; A$740m over 10 years. AP, CNN"),
     (6, "DHAKA", "ASIA-PACIFIC", "CONFIRMED",
      "Bangladesh lifts garment wage 36%",
-     "Minimum 17,000 taka; smallest rise since 1986 \u2014 protests follow. AP, AFP"),
+     "Minimum 17,000 taka; smallest rise since 1986 \u2014 protests follow. AP, AFP, CCC"),
     (7, "DAMAZIN", "AFRICA", "REPORTED",
      "RSF drone strike kills 19 in Blue Nile",
      "Reported Wed; 19 dead in Damazin, 20 hurt. Reuters"),
@@ -444,13 +444,13 @@ def card_dhaka(w, h):
     d.rectangle([14, 34, 26, h], fill=(20, 60, 40))                     # chimneys
     d.rectangle([30, 40, 44, h], fill=(20, 60, 40))
     d.ellipse([16, 26, 28, 34], fill=(200, 200, 200))
-    bars = [16, 24, 32, 42]
+    bars = [14, 20, 26, 34]
     for i, bh in enumerate(bars):
-        x = 62 + i * 26
+        x = 70 + i * 26
         d.rectangle([x, h - 8 - bh, x + 18, h - 8], fill=(255, 255, 255))
-    d.line([58, h - 8, 172, h - 8], fill=(255, 255, 255), width=2)
-    f = sans_b(15)
-    d.text((10, 4), "36%", font=f, fill=(255, 255, 255))
+    d.line([66, h - 8, 178, h - 8], fill=(255, 255, 255), width=2)
+    f = sans_b(13)
+    d.text((116, 2), "36%", font=f, fill=(255, 255, 255))
     return img
 
 def card_damazin(w, h):
