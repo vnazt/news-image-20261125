@@ -177,7 +177,7 @@ CARDS = [
      "27 vehicles burned; toll rose from 21 overnight. Reuters, CNN"),
     (5, "CANBERRA", "OCEANIA", "OFFICIAL",
      "Solomon picks Australia, bars foreign bases",
-     "Wale\u2013Albanese sign pact; A$740m over 10 years. AP, CNN"),
+     "A$740m over 10 years; China pact ends Apr 2027. AP, CNN, ASPI"),
     (6, "DHAKA", "ASIA-PACIFIC", "CONFIRMED",
      "Bangladesh lifts garment wage 36%",
      "Minimum 17,000 taka; smallest rise since 1986 \u2014 protests follow. AP, AFP, CCC"),
